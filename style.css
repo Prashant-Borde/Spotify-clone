@@ -1,0 +1,65 @@
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    /* width: 100vh; */
+}
+
+.side-bar{
+    background-color: yellow;
+    width: 25%;
+    border-radius: 1rem; 
+}
+
+.main-content{
+    background-color: #121212;
+    background-color: #;
+    flex: 1;
+    border-radius: 1rem;
+}
+
+.music-player{
+    background-color: #121212;
+    background-color: #;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height:72px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-section{
+    background-color: #121212;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-options{
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem;
+}
+
+.nav-options i{
+    font-size: 1.25rem;
+}
+
+.nav-options a{
+    font-size: 1rem;
+}
